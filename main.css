@@ -1,22 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@300;400&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.logo {
-  width: 100%;
-  height: calc(10vw - 1rem);
+body {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(41, 20, 24, 0.969393783740783) 100%
+  );
+}
+
+.logo,
+h3 {
   text-align: center;
+  text-transform: uppercase;
   padding-top: 1rem;
+  font-family: "Gluten", cursive;
 }
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+.logo {
+  font-size: 1.2rem;
 }
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
 .battles {
   list-style: none;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+li {
+  display: inline-block;
+  padding: 0 2rem 1.5rem 2rem;
 }
 .battles a {
   text-decoration: none;
