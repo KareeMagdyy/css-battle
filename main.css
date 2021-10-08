@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 100%;
+  height: calc(10vw - 1rem);
+  text-align: center;
+  padding-top: 1rem;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.battles {
+  list-style: none;
+}
+.battles a {
+  text-decoration: none;
+  color: #000;
+}
