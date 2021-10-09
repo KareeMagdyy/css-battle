@@ -1,0 +1,28 @@
+body {
+  background: #0b2429;
+  position: relative;
+}
+div {
+  width: 120px;
+  aspect-ratio: 1;
+  position: absolute;
+  background: #f3ac3c;
+  border-radius: 50% 0 50% 50%;
+}
+
+.shape-1 {
+  left: 72px;
+  bottom: 22px;
+}
+
+.shape-2 {
+  background: #998235;
+  top: 82px;
+  left: 132px;
+}
+
+.shape-3 {
+  border-radius: 50%;
+  right: 72px;
+  bottom: 142px;
+}
