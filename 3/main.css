@@ -1,11 +1,20 @@
 body {
-  background: #6592cf;
-  margin: 0;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+.container {
+  background: #6592cf;
+  margin: 0;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .square {
   width: 300px;
   height: 150px;

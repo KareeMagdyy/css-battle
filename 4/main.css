@@ -1,16 +1,26 @@
 body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
   background: #62306d;
   position: relative;
+  width: 400px;
+  height: 300px;
 }
-div {
+
+.container div {
   width: 100px;
   aspect-ratio: 1;
   position: absolute;
   background: #f7ec7d;
-  border-radius: 0 0 50% 50%;
 }
 
 .shape-1 {
+  border-radius: 0 0 50% 50%;
   left: 42px;
   bottom: 42px;
 }
@@ -22,6 +32,7 @@ div {
 }
 
 .shape-3 {
+  border-radius: 0 0 50% 50%;
   right: 42px;
   bottom: 42px;
 }
