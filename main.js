@@ -1,4 +1,4 @@
-const battlesCount = 7;
+const battlesCount = 8;
 const list = document.querySelector(".battles");
 const baseURL = "https://img.icons8.com/ios-filled/50/000000/";
 

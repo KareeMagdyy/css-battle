@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  width: 400px;
+  height: 300px;
+  background: #6592cf;
+  position: relative;
+}
+
+.container div {
+  position: absolute;
+  background: #060f55;
+}
+.shape-1 {
+  width: 140px;
+  height: 190px;
+  top: 60px;
+  left: 130px;
+  border-radius: 0 0 100px 100px;
+}
+
+.shape-2 {
+  width: 20px;
+  height: 70px;
+  bottom: 0;
+  left: 190px;
+}
+
+.shape-3 > div {
+  background: #6592cf;
+  border-radius: 0 0 60px 60px;
+}
+
+.one {
+  width: 20px;
+  height: 110px;
+  top: 50px;
+  left: 190px;
+}
+
+.one::before,
+.one::after,
+.two::before,
+.two::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #060f55;
+  border-radius: 10px 10px 0 0;
+}
+.one::before {
+  left: 20px;
+}
+
+.one::after {
+  left: 60px;
+}
+
+.two {
+  width: 20px;
+  height: 110px;
+  top: 50px;
+  left: 150px;
+}
+
+.two::before {
+  left: 20px;
+}
+
+.two::after {
+  right: 20px;
+}
+
+.three {
+  width: 20px;
+  height: 110px;
+  top: 50px;
+  left: 230px;
+}
