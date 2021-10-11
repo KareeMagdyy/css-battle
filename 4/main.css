@@ -21,18 +21,18 @@ body {
 
 .shape-1 {
   border-radius: 0 0 50% 50%;
-  left: 42px;
-  bottom: 42px;
+  left: 50px;
+  bottom: 50px;
 }
 
 .shape-2 {
-  top: 42px;
-  left: 142px;
+  top: 50px;
+  left: 150px;
   border-radius: 50% 50% 0 0;
 }
 
 .shape-3 {
   border-radius: 0 0 50% 50%;
-  right: 42px;
-  bottom: 42px;
+  right: 50px;
+  bottom: 50px;
 }

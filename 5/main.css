@@ -16,23 +16,25 @@ body {
   width: 120px;
   aspect-ratio: 1;
   position: absolute;
-  background: #f3ac3c;
-  border-radius: 50% 0 50% 50%;
 }
 
 .shape-1 {
+  background: #f3ac3c;
   left: 72px;
-  bottom: 22px;
+  bottom: 30px;
+  border-radius: 50% 0 50% 50%;
 }
 
 .shape-2 {
   background: #998235;
-  top: 82px;
-  left: 132px;
+  top: 90px;
+  left: 130px;
+  border-radius: 50% 0 50% 50%;
 }
 
 .shape-3 {
+  background: #f3ac3c;
   border-radius: 50%;
-  right: 72px;
-  bottom: 142px;
+  right: 90px;
+  top: 30px;
 }

@@ -28,12 +28,12 @@ body {
 
 .shape-2 {
   background: #998235;
-  top: 67px;
-  left: 117px;
+  bottom: 67px;
+  left: 115px;
 }
 
 .shape-3 {
-  right: 67px;
+  right: 85px;
   bottom: 67px;
   background: #f3ac3c;
 }

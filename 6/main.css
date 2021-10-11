@@ -19,13 +19,13 @@ body {
 
 .shape-1 {
   left: 92px;
-  top: 42px;
+  top: 50px;
   background: #51b5a9;
   border-radius: 100% 0 0 0;
 }
 .shape-2 {
   background: #fade8b;
-  top: 42px;
+  top: 50px;
   left: 192px;
   border-radius: 0 100% 0 0;
 }
@@ -33,5 +33,5 @@ body {
   border-radius: 0 0 0 100%;
   background: #f7f3d7;
   left: 92px;
-  top: 142px;
+  top: 150px;
 }
