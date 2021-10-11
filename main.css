@@ -13,6 +13,7 @@ body {
     rgba(63, 94, 251, 1) 0%,
     rgba(41, 20, 24, 0.969393783740783) 100%
   );
+  background: cover no-repeat;
 }
 
 .logo,
